@@ -63,46 +63,28 @@
     width: 35%;
 }
 
-.escola-titulo {
-    padding: 24px 0;
-}
-
-.lã-imagem {
-    width: 35%;
-}
-
-.estudante {
-    padding: 24px 0;
-}
-
-.queijo-nome {
-    padding: 24px 0;
-}
-
-.produtos-fabricados {
-    padding: 24px 0;
-}
-
-.queijoimagem {
-    width: 35%;
-}
-
-.estudante-icone {
-    width: 24px;
-    padding: 4px 8px;
-}
-
-.queijo-div {
-    text-align: center;
-    padding: 16px 0;
-}
-
-.lã-div {
-    text-align: center;
-    padding: 16px 0;
-}
-
 .rodape {
     background-color: rgb(160, 71, 4);
     text-align: center;
+}
+
+#opcoes-acessibilidade button {
+    background-color: #3260a5; /* verde bonito */
+    color: white; /* cor do texto */
+    border: none; /* sem borda feia */
+    border-radius: 8px; /* cantos arredondados */
+    padding: 10px 20px; /* tamanho do botão */
+    margin: 5px; /* espaço entre os botões */
+    font-size: 1rem; /* tamanho do texto */
+    cursor: pointer; /* muda o cursor para mãozinha */
+    transition: all 0.3s ease; /* animação suave */
+}
+
+#opcoes-acessibilidade button:hover {
+    background-color: #3260a5; /* muda a cor ao passar o mouse */
+    transform: scale(1.05); /* dá um leve zoom */
+}
+
+#opcoes-acessibilidade button:active {
+    transform: scale(0.95); /* efeito de clique */
 }
